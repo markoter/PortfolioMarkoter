@@ -1,0 +1,148 @@
+@media screen and (max-width: 1299px) {
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 6rem;
+    }
+
+    .portfolios {
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 6rem;
+    }
+
+    .contact-content-container {
+        flex-direction: column;
+        padding-bottom: 6rem;
+
+        .right-contact {
+            margin-left: 0;
+
+            .i-c-2 {
+                flex-direction: column;
+            }
+
+            .submit-btn {
+                justify-content: center;
+            }
+        }
+    }
+
+    .about-container {
+
+        .right-about {
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+
+
+        }
+    }
+}
+
+@media screen and (max-width: 1079px) {
+
+    //this is breakpoint when the changes starts to apply, it can be more than one
+    header {
+        padding: 0;
+
+    }
+
+    .right-header {
+        padding: 0 !important; //without important it has 18 padding on right
+        grid-row: 1;
+
+        .name {
+            font-size: 2.5rem !important;
+        }
+    }
+
+    .left-header {
+        .h-shape {
+            display: none;
+        }
+    }
+
+    .theme-btn {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .header-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+
+
+        .left-about {
+            padding-left: 0;
+            padding-right: 0;
+
+        }
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .about-stats {
+        .progress-bars {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .portfolios {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+
+
+    .section {
+        padding: 2rem 2.5rem;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .main-title {
+        h2 {
+            font-size: 2.5rem;
+
+            span {
+                font-size: 3rem;
+            }
+
+            .bg-text {
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+
+    //move controls to the bottom
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+
+        .control {
+            margin: .8rem .5rem;
+        }
+    }
+}
