@@ -685,8 +685,7 @@ section {
 }
 
 .blogs {
-  display: -ms-grid;
-  display: grid;
+  display: none !important;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
