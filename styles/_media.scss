@@ -1,4 +1,4 @@
-@media screen and (max-width: 1299px) {
+@media screen and (max-width: 1380px) {
     .blogs {
         grid-template-columns: repeat(2, 1fr);
         padding-bottom: 6rem;
@@ -37,7 +37,7 @@
     }
 }
 
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 1080px) {
 
     //this is breakpoint when the changes starts to apply, it can be more than one
     header {
@@ -143,6 +143,15 @@
 
         .control {
             margin: .8rem .5rem;
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    .contact-content-container {
+        .left-contact {
+            .contact-info {
+                font-size: .9rem;
+            }
         }
     }
 }
