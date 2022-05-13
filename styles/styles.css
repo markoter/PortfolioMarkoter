@@ -802,6 +802,12 @@ section {
 }
 
 @media screen and (max-width: 1380px) {
+  .header-content .left-header .image {
+    margin-left: 0;
+    margin-top: 2rem;
+    height: 100%;
+    width: 100%;
+  }
   .blogs {
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 6rem;
