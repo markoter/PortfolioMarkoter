@@ -391,6 +391,10 @@ section {
   width: 20%;
 }
 
+.about-stats .progress-bars .pr-bar .pr-container .progress .unity {
+  width: 20%;
+}
+
 .timeline {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
