@@ -379,23 +379,26 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="mailto:markoterMMW@outlook.com" method="get" class="contact-form">
+                        <form action="https://formsubmit.co/markoter@outlook.com" method="POST" class="contact-form">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="text" required placeholder="YOUR EMAIL">
+                                <input type="text" name="name" required placeholder="YOUR NAME">
+                                <input type="email" name="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
+                                <input type="hidden" name="_subject" required placeholder="ENTER SUBJECT">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8"
-                                    placeholder="Write message here..."></textarea>
+                                <textarea name="message" id="" cols="15" rows="8"
+                                    required placeholder="Write message here..."></textarea>
                             </div>
+                            
                             <div class="submit-btn">
-                                <a href="" class="main-btn">
-                                    <span class="btn-text">Send</span>
-                                    <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></i></span>
-                                </a>
+                                <button type="submit" class="submit-btn">
+                                    <a href="" class="main-btn">
+                                        <span class="btn-text">Send</span>
+                                        <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></i></span>
+                                    </a>
+                                </button>
                             </div>
                         </form>
                     </div>
